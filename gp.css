@@ -1,0 +1,16 @@
+input{
+	text-align: center;
+	border: none;
+	border-left: 1px solid black;
+	border-top: 1px solid black ;
+	outline: none;
+
+}
+.container{
+		border: 1px solid black;
+		width: 79.5%;
+		
+}
+input[type=button]{
+	margin-top: 20px;
+}

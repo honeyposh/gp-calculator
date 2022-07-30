@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GP CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="gp.css">
+	<script src="gp.js"></script>
+</head>
+<body>
+	<div class="container">
+		<input disabled type="text" placeholder="serial no">
+		<input disabled type="text" placeholder="coursecode">
+		<input disabled type="text" placeholder="unit">
+		<input disabled type="text" placeholder="score" >
+		<input disabled type="text" placeholder="grade" >
+		<input disabled type="text" placeholder="point">
+	<br>
+		<input type="text">
+		<input type="text">
+		<input type="text" id="unit" >
+		<input type="text" id="score" onchange="displayPointFronUnitAndScore()">
+		<input type="text" id="grade" >
+		<input type="text" id="point" >
+	<br>
+		<input type="text">
+		<input type="text">
+		<input type="text" id="unit" >
+		<input type="text" id="score" onchange="displayPointFronUnitAndScore()">
+		<input type="text" id="grade" >
+		<input type="text" id="point" >
+	<br>
+		<input type="text">
+		<input type="text">
+		<input type="text" id="unit" >
+		<input type="text" id="score" onchange="displayPointFronUnitAndScore()">
+		<input type="text" id="grade" >
+		<input type="text" id="point" >
+	<br>
+		<input type="text">
+		<input type="text">
+		<input type="text" id="unit" >
+		<input type="text" id="score" onchange="displayPointFronUnitAndScore()">
+		<input type="text" id="grade" >
+		<input type="text" id="point" >
+	<br>
+		<input type="text">
+		<input type="text">
+		<input type="text" id="unit">
+		<input type="text" id="score" onchange="displayPointFronUnitAndScore()">
+		<input type="text" id="grade" >
+		<input type="text" id="point">
+	<br>
+	</div>
+		<input type="button" value="CALCULATEGPA" onclick="calculate()">
+		<p id="gpa"></p>
+		<input type="button" value="TotalPoint" onclick="calculate()">
+		<p id="points"></p>
+		<input type="button" value="TotalUnit" onclick="calculate()">
+		<p id="units"></p>
+
+
+</body>
+</html>
